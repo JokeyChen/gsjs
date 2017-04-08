@@ -1,6 +1,8 @@
 const Course = require('./lib/course');
 
-exports.createCourse = function (url, secret) {
+exports.createCourse = async function (url, secret) {
   var course = new Course(url, secret);
-  return course.scrapeInfo();
+  course = await course.scrapeInfo();
+  course = await course.scrapeScore();
+  return course;
 };

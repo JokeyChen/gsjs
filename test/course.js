@@ -8,6 +8,8 @@ test.beforeEach(t => {
   t.context.name = 'CSE 120';
   t.context.instructor = 'Professor Joseph Pasquale';
   t.context.last_update = moment('3/31/2017 5:43:01 AM', 'M/D/YYYY h:mm:ss A').toString();
+  t.context.overallRank = 103;
+  t.context.overallScore = '77.08%';
 });
 
 test('url is correct', async t => {
@@ -33,4 +35,14 @@ test('instructor is correct', async t => {
 test('last_update is correct', async t => {
   var course = await app.createCourse(t.context.url, t.context.secret);
   t.is(course.last_update, t.context.last_update);
+});
+
+test('overall rank is correct', async t => {
+  var course = await app.createCourse(t.context.url, t.context.secret);
+  t.is(course.overallRank, t.context.overallRank);
+});
+
+test('overall score is correct', async t => {
+  var course = await app.createCourse(t.context.url, t.context.secret);
+  t.is(course.overallScore, t.context.overallScore);
 });
