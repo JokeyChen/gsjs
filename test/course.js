@@ -8,35 +8,29 @@ test.beforeEach(t => {
   t.context.name = 'CSE 120';
   t.context.instructor = 'Professor Joseph Pasquale';
   t.context.last_update = moment('3/31/2017 5:43:01 AM', 'M/D/YYYY h:mm:ss A').toString();
-  t.context.data = app.createCourse(t.context.url, t.context.secret);
 });
 
-test('url is correct', t => {
-  return t.context.data.then(course => {
-    t.is(course.url, t.context.url);
-  });
+test('url is correct', async t => {
+  var course = await app.createCourse(t.context.url, t.context.secret);
+  t.is(course.url, t.context.url);
 });
 
-test('secret is correct', t => {
-  return t.context.data.then(course => {
-    t.is(course.secret, t.context.secret);
-  });
+test('secret is correct', async t => {
+  var course = await app.createCourse(t.context.url, t.context.secret);
+  t.is(course.secret, t.context.secret);
 });
 
-test('name is correct', t => {
-  return t.context.data.then(course => {
-    t.is(course.name, t.context.name);
-  });
+test('name is correct', async t => {
+  var course = await app.createCourse(t.context.url, t.context.secret);
+  t.is(course.name, t.context.name);
 });
 
-test('instructor is correct', t => {
-  return t.context.data.then(course => {
-    t.is(course.instructor, t.context.instructor);
-  });
+test('instructor is correct', async t => {
+  var course = await app.createCourse(t.context.url, t.context.secret);
+  t.is(course.instructor, t.context.instructor);
 });
 
-test('last_update is correct', t => {
-  return t.context.data.then(course => {
-    t.is(course.last_update, t.context.last_update);
-  });
+test('last_update is correct', async t => {
+  var course = await app.createCourse(t.context.url, t.context.secret);
+  t.is(course.last_update, t.context.last_update);
 });
