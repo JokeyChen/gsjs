@@ -11,6 +11,32 @@ test.beforeEach(t => {
   t.context.overallRank = 103;
   t.context.overallScore = '77.08%';
   t.context.numCategories = 3;
+  t.context.categories = [
+    {
+      name: 'Programming',
+      props: [
+        { name: 'Rank' },
+        { name: 'Points', value: '30' },
+        { name: 'Score', value: '100%' }
+      ]
+    },
+    {
+      name: 'Midterm',
+      props: [
+        { name: 'Rank' },
+        { name: 'Points', value: '24' },
+        { name: 'Score', value: '100%' }
+      ]
+    },
+    {
+      name: 'Final',
+      props: [
+        { name: 'Rank' },
+        { name: 'Points', value: '60' },
+        { name: 'Score', value: '100%' }
+      ]
+    }
+  ];
 });
 
 test('url is correct', async t => {
@@ -51,4 +77,9 @@ test('overall score is correct', async t => {
 test('num of categories is correct', async t => {
   var course = await app.createCourse(t.context.url, t.context.secret);
   t.is(course.numCategories, t.context.numCategories);
+});
+
+test('categories is correct', async t => {
+  var course = await app.createCourse(t.context.url, t.context.secret);
+  t.deepEqual(course.categories, t.context.categories);
 });
