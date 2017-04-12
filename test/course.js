@@ -36,6 +36,26 @@ test.beforeEach(t => {
           { name: 'Score', maxValue: '100%' }
         ]
       }
+    ],
+    scores: [
+      {
+        category: 'Programming',
+        rank: 159,
+        point: 24.75,
+        score: '82.50%'
+      },
+      {
+        category: 'Midterm',
+        rank: 70,
+        point: 20,
+        score: '83.33%'
+      },
+      {
+        category: 'Final',
+        rank: 88,
+        point: 41,
+        score: '68.33%'
+      }
     ]
   },
   {
@@ -211,5 +231,12 @@ test('categories is correct', async t => {
   for (var course of t.context.courses) {
     var returnVal = await app.createCourse(course.url, course.secret);
     t.deepEqual(returnVal.categories, course.categories);
+  }
+});
+
+test('scores for each category are correct', async t => {
+  for (var course of t.context.courses) {
+    var returnVal = await app.createCourse(course.url, course.secret);
+    t.deepEqual(returnVal.scores, course.scores);
   }
 });
