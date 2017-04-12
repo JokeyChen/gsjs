@@ -16,7 +16,7 @@ test.beforeEach(t => {
         name: 'Programming',
         props: [
           { name: 'Rank' },
-          { name: 'Points', value: '30' },
+          { name: 'Points', value: 30 },
           { name: 'Score', value: '100%' }
         ]
       },
@@ -24,7 +24,7 @@ test.beforeEach(t => {
         name: 'Midterm',
         props: [
           { name: 'Rank' },
-          { name: 'Points', value: '24' },
+          { name: 'Points', value: 24 },
           { name: 'Score', value: '100%' }
         ]
       },
@@ -32,7 +32,7 @@ test.beforeEach(t => {
         name: 'Final',
         props: [
           { name: 'Rank' },
-          { name: 'Points', value: '60' },
+          { name: 'Points', value: 60 },
           { name: 'Score', value: '100%' }
         ]
       }
@@ -78,7 +78,7 @@ test.beforeEach(t => {
         name: 'Teamwork',
         props: [
           { name: 'Rank' },
-          { name: 'Points', value: '75' },
+          { name: 'Points', value: 75 },
           { name: 'Score', value: '100%' }
         ]
       },
@@ -86,7 +86,7 @@ test.beforeEach(t => {
         name: 'Labs',
         props: [
           { name: 'Rank' },
-          { name: 'Points', value: '90' },
+          { name: 'Points', value: 90 },
           { name: 'Score', value: '100%' }
         ]
       },
@@ -94,7 +94,7 @@ test.beforeEach(t => {
         name: 'Project Artifacts',
         props: [
           { name: 'Rank' },
-          { name: 'Points', value: '309' },
+          { name: 'Points', value: 309 },
           { name: 'Score', value: '100%' }
         ]
       },
@@ -102,7 +102,7 @@ test.beforeEach(t => {
         name: 'Project Implementation',
         props: [
           { name: 'Rank' },
-          { name: 'Points', value: '180' },
+          { name: 'Points', value: 180 },
           { name: 'Score', value: '100%' }
         ]
       },
@@ -117,7 +117,7 @@ test.beforeEach(t => {
         name: 'Final',
         props: [
           { name: 'Rank' },
-          { name: 'Points', value: '149' },
+          { name: 'Points', value: 149 },
           { name: 'Score', value: '100%' }
         ]
       },
@@ -125,7 +125,7 @@ test.beforeEach(t => {
         name: 'Professionalism',
         props: [
           { name: 'Rank' },
-          { name: 'Points', value: '1' },
+          { name: 'Points', value: 1 },
           { name: 'Score', value: '100%' }
         ]
       }
@@ -190,35 +190,35 @@ test.beforeEach(t => {
       {
         name: 'Participation (clickers)',
         props: [
-          { name: 'Points', value: '28' },
+          { name: 'Points', value: 28 },
           { name: 'Score', value: '100%' }
         ]
       },
       {
         name: 'Reading',
         props: [
-          { name: 'Points', value: '400' },
+          { name: 'Points', value: 400 },
           { name: 'Score', value: '100%' }
         ]
       },
       {
         name: 'ZyLab',
         props: [
-          { name: 'Points', value: '300' },
+          { name: 'Points', value: 300 },
           { name: 'Score', value: '100%' }
         ]
       },
       {
         name: 'Programming',
         props: [
-          { name: 'Points', value: '200' },
+          { name: 'Points', value: 200 },
           { name: 'Score', value: '100%' }
         ]
       },
       {
         name: 'Exams',
         props: [
-          { name: 'Points', value: '90' },
+          { name: 'Points', value: 90 },
           { name: 'Score', value: '100%' }
         ]
       }
