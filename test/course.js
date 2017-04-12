@@ -110,6 +110,51 @@ test.beforeEach(t => {
         ]
       }
     ]
+  },
+  {
+    url: 'http://www.gradesource.com/reports/5805/28893/index.html',
+    secret: 168,
+    name: 'CSE 11',
+    instructor: 'Joe Politz',
+    last_update: moment('2/26/2017 10:28:01 PM', 'M/D/YYYY h:mm:ss A').toString(),
+    overallScore: '68.35%',
+    categories: [
+      {
+        name: 'Participation (clickers)',
+        props: [
+          { name: 'Points', value: '28' },
+          { name: 'Score', value: '100%' }
+        ]
+      },
+      {
+        name: 'Reading',
+        props: [
+          { name: 'Points', value: '400' },
+          { name: 'Score', value: '100%' }
+        ]
+      },
+      {
+        name: 'ZyLab',
+        props: [
+          { name: 'Points', value: '300' },
+          { name: 'Score', value: '100%' }
+        ]
+      },
+      {
+        name: 'Programming',
+        props: [
+          { name: 'Points', value: '200' },
+          { name: 'Score', value: '100%' }
+        ]
+      },
+      {
+        name: 'Exams',
+        props: [
+          { name: 'Points', value: '90' },
+          { name: 'Score', value: '100%' }
+        ]
+      }
+    ]
   }];
 });
 
