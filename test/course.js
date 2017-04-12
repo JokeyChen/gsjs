@@ -40,20 +40,20 @@ test.beforeEach(t => {
     scores: [
       {
         category: 'Programming',
-        rank: 159,
-        point: 24.75,
+        rank: '159',
+        points: '24.75',
         score: '82.50%'
       },
       {
         category: 'Midterm',
-        rank: 70,
-        point: 20,
+        rank: '70',
+        points: '20',
         score: '83.33%'
       },
       {
         category: 'Final',
-        rank: 88,
-        point: 41,
+        rank: '88',
+        points: '41',
         score: '68.33%'
       }
     ]
