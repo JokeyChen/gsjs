@@ -37,6 +37,79 @@ test.beforeEach(t => {
         ]
       }
     ]
+  },
+  {
+    url: 'http://www.gradesource.com/reports/7/28639/index.html',
+    secret: 2013,
+    name: 'CSE 110',
+    instructor: 'Gary Gillespie',
+    last_update: moment('4/6/2017 9:39:02 PM', 'M/D/YYYY h:mm:ss A').toString(),
+    overallRank: 7,
+    overallScore: '94.70%',
+    categories: [
+      {
+        name: 'Participation',
+        props: [
+          { name: 'Rank' },
+          { name: 'Score', value: '100%' }
+        ]
+      },
+      {
+        name: 'Teamwork',
+        props: [
+          { name: 'Rank' },
+          { name: 'Points', value: '75' },
+          { name: 'Score', value: '100%' }
+        ]
+      },
+      {
+        name: 'Labs',
+        props: [
+          { name: 'Rank' },
+          { name: 'Points', value: '90' },
+          { name: 'Score', value: '100%' }
+        ]
+      },
+      {
+        name: 'Project Artifacts',
+        props: [
+          { name: 'Rank' },
+          { name: 'Points', value: '309' },
+          { name: 'Score', value: '100%' }
+        ]
+      },
+      {
+        name: 'Project Implementation',
+        props: [
+          { name: 'Rank' },
+          { name: 'Points', value: '180' },
+          { name: 'Score', value: '100%' }
+        ]
+      },
+      {
+        name: 'Quizzes(Best 4 out of 5)',
+        props: [
+          { name: 'Rank' },
+          { name: 'Score', value: '100%' }
+        ]
+      },
+      {
+        name: 'Final',
+        props: [
+          { name: 'Rank' },
+          { name: 'Points', value: '149' },
+          { name: 'Score', value: '100%' }
+        ]
+      },
+      {
+        name: 'Professionalism',
+        props: [
+          { name: 'Rank' },
+          { name: 'Points', value: '1' },
+          { name: 'Score', value: '100%' }
+        ]
+      }
+    ]
   }];
 });
 
