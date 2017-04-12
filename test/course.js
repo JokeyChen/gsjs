@@ -40,20 +40,20 @@ test.beforeEach(t => {
     scores: [
       {
         category: 'Programming',
-        rank: '159',
-        points: '24.75',
+        rank: 159,
+        points: 24.75,
         score: '82.50%'
       },
       {
         category: 'Midterm',
-        rank: '70',
-        points: '20',
+        rank: 70,
+        points: 20,
         score: '83.33%'
       },
       {
         category: 'Final',
-        rank: '88',
-        points: '41',
+        rank: 88,
+        points: 41,
         score: '68.33%'
       }
     ]
@@ -133,48 +133,48 @@ test.beforeEach(t => {
     scores: [
       {
         category: 'Participation',
-        rank: '1',
+        rank: 1,
         score: '97.78%'
       },
       {
         category: 'Teamwork',
-        rank: '1',
-        points: '75',
+        rank: 1,
+        points: 75,
         score: '100.00%'
       },
       {
         category: 'Labs',
-        rank: '1',
-        points: '90',
+        rank: 1,
+        points: 90,
         score: '100.00%'
       },
       {
         category: 'Project Artifacts',
-        rank: '1',
-        points: '308',
+        rank: 1,
+        points: 308,
         score: '99.68%'
       },
       {
         category: 'Project Implementation',
-        rank: '1',
-        points: '180',
+        rank: 1,
+        points: 180,
         score: '100.00%'
       },
       {
         category: 'Quizzes(Best 4 out of 5)',
-        rank: '15',
+        rank: 15,
         score: '94.44%'
       },
       {
         category: 'Final',
-        rank: '59',
-        points: '129',
+        rank: 59,
+        points: 129,
         score: '86.58%'
       },
       {
         category: 'Professionalism',
-        rank: '1',
-        points: '1',
+        rank: 1,
+        points: 1,
         score: '100.00%'
       }
     ]
@@ -226,27 +226,27 @@ test.beforeEach(t => {
     scores: [
       {
         category: 'Participation (clickers)',
-        points: '9',
+        points: 9,
         score: '32.14%'
       },
       {
         category: 'Reading',
-        points: '396.9',
+        points: 396.9,
         score: '99.23%'
       },
       {
         category: 'ZyLab',
-        points: '300',
+        points: 300,
         score: '100.00%'
       },
       {
         category: 'Programming',
-        points: '87',
+        points: 87,
         score: '43.50%'
       },
       {
         category: 'Exams',
-        points: '66',
+        points: 66,
         score: '73.33%'
       }
     ]
