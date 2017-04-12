@@ -129,6 +129,54 @@ test.beforeEach(t => {
           { name: 'Score', maxValue: '100%' }
         ]
       }
+    ],
+    scores: [
+      {
+        category: 'Participation',
+        rank: '1',
+        score: '97.78%'
+      },
+      {
+        category: 'Teamwork',
+        rank: '1',
+        points: '75',
+        score: '100.00%'
+      },
+      {
+        category: 'Labs',
+        rank: '1',
+        points: '90',
+        score: '100.00%'
+      },
+      {
+        category: 'Project Artifacts',
+        rank: '1',
+        points: '308',
+        score: '99.68%'
+      },
+      {
+        category: 'Project Implementation',
+        rank: '1',
+        points: '180',
+        score: '100.00%'
+      },
+      {
+        category: 'Quizzes(Best 4 out of 5)',
+        rank: '15',
+        score: '94.44%'
+      },
+      {
+        category: 'Final',
+        rank: '59',
+        points: '129',
+        score: '86.58%'
+      },
+      {
+        category: 'Professionalism',
+        rank: '1',
+        points: '1',
+        score: '100.00%'
+      }
     ]
   },
   {
@@ -173,6 +221,33 @@ test.beforeEach(t => {
           { name: 'Points', maxValue: '90' },
           { name: 'Score', maxValue: '100%' }
         ]
+      }
+    ],
+    scores: [
+      {
+        category: 'Participation (clickers)',
+        points: '9',
+        score: '32.14%'
+      },
+      {
+        category: 'Reading',
+        points: '396.9',
+        score: '99.23%'
+      },
+      {
+        category: 'ZyLab',
+        points: '300',
+        score: '100.00%'
+      },
+      {
+        category: 'Programming',
+        points: '87',
+        score: '43.50%'
+      },
+      {
+        category: 'Exams',
+        points: '66',
+        score: '73.33%'
       }
     ]
   }];
