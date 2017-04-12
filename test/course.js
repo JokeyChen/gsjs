@@ -16,24 +16,24 @@ test.beforeEach(t => {
         name: 'Programming',
         props: [
           { name: 'Rank' },
-          { name: 'Points', value: '30' },
-          { name: 'Score', value: '100%' }
+          { name: 'Points', maxValue: '30' },
+          { name: 'Score', maxValue: '100%' }
         ]
       },
       {
         name: 'Midterm',
         props: [
           { name: 'Rank' },
-          { name: 'Points', value: '24' },
-          { name: 'Score', value: '100%' }
+          { name: 'Points', maxValue: '24' },
+          { name: 'Score', maxValue: '100%' }
         ]
       },
       {
         name: 'Final',
         props: [
           { name: 'Rank' },
-          { name: 'Points', value: '60' },
-          { name: 'Score', value: '100%' }
+          { name: 'Points', maxValue: '60' },
+          { name: 'Score', maxValue: '100%' }
         ]
       }
     ]
@@ -51,62 +51,62 @@ test.beforeEach(t => {
         name: 'Participation',
         props: [
           { name: 'Rank' },
-          { name: 'Score', value: '100%' }
+          { name: 'Score', maxValue: '100%' }
         ]
       },
       {
         name: 'Teamwork',
         props: [
           { name: 'Rank' },
-          { name: 'Points', value: '75' },
-          { name: 'Score', value: '100%' }
+          { name: 'Points', maxValue: '75' },
+          { name: 'Score', maxValue: '100%' }
         ]
       },
       {
         name: 'Labs',
         props: [
           { name: 'Rank' },
-          { name: 'Points', value: '90' },
-          { name: 'Score', value: '100%' }
+          { name: 'Points', maxValue: '90' },
+          { name: 'Score', maxValue: '100%' }
         ]
       },
       {
         name: 'Project Artifacts',
         props: [
           { name: 'Rank' },
-          { name: 'Points', value: '309' },
-          { name: 'Score', value: '100%' }
+          { name: 'Points', maxValue: '309' },
+          { name: 'Score', maxValue: '100%' }
         ]
       },
       {
         name: 'Project Implementation',
         props: [
           { name: 'Rank' },
-          { name: 'Points', value: '180' },
-          { name: 'Score', value: '100%' }
+          { name: 'Points', maxValue: '180' },
+          { name: 'Score', maxValue: '100%' }
         ]
       },
       {
         name: 'Quizzes(Best 4 out of 5)',
         props: [
           { name: 'Rank' },
-          { name: 'Score', value: '100%' }
+          { name: 'Score', maxValue: '100%' }
         ]
       },
       {
         name: 'Final',
         props: [
           { name: 'Rank' },
-          { name: 'Points', value: '149' },
-          { name: 'Score', value: '100%' }
+          { name: 'Points', maxValue: '149' },
+          { name: 'Score', maxValue: '100%' }
         ]
       },
       {
         name: 'Professionalism',
         props: [
           { name: 'Rank' },
-          { name: 'Points', value: '1' },
-          { name: 'Score', value: '100%' }
+          { name: 'Points', maxValue: '1' },
+          { name: 'Score', maxValue: '100%' }
         ]
       }
     ]
@@ -122,36 +122,36 @@ test.beforeEach(t => {
       {
         name: 'Participation (clickers)',
         props: [
-          { name: 'Points', value: '28' },
-          { name: 'Score', value: '100%' }
+          { name: 'Points', maxValue: '28' },
+          { name: 'Score', maxValue: '100%' }
         ]
       },
       {
         name: 'Reading',
         props: [
-          { name: 'Points', value: '400' },
-          { name: 'Score', value: '100%' }
+          { name: 'Points', maxValue: '400' },
+          { name: 'Score', maxValue: '100%' }
         ]
       },
       {
         name: 'ZyLab',
         props: [
-          { name: 'Points', value: '300' },
-          { name: 'Score', value: '100%' }
+          { name: 'Points', maxValue: '300' },
+          { name: 'Score', maxValue: '100%' }
         ]
       },
       {
         name: 'Programming',
         props: [
-          { name: 'Points', value: '200' },
-          { name: 'Score', value: '100%' }
+          { name: 'Points', maxValue: '200' },
+          { name: 'Score', maxValue: '100%' }
         ]
       },
       {
         name: 'Exams',
         props: [
-          { name: 'Points', value: '90' },
-          { name: 'Score', value: '100%' }
+          { name: 'Points', maxValue: '90' },
+          { name: 'Score', maxValue: '100%' }
         ]
       }
     ]
