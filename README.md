@@ -29,7 +29,7 @@ Two simple steps to use:
   const gsjs = require('gsjs');
   ```
 
-2. Call the createCourse() method by passing an url and a secret code provided by instructor. The method return a promise, so do whatever you want with the course object inside then(). For example,
+2. Call the createCourse() method by passing an url and a secret code provided by instructor. The method returns a promise, so do whatever you want with the course object inside then(). For example,
   ```
   gsjs.createCourse('http://www.gradesource.com/reports/823/28732/index.html', 7414).then(function (course) {
     console.log('***** course object: *****');
