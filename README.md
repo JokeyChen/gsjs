@@ -36,6 +36,7 @@ Two simple steps to use:
     console.log(course);
   });
   ```
+
 will output the following
 
   ```
@@ -55,7 +56,8 @@ will output the following
        { category: 'Midterm', rank: 44, points: 21, score: '87.50%' },
        { category: 'Final', rank: 5, points: 52, score: '86.67%' } ],
     overallRank: 9,
-    overallScore: '89.92%' }
+    overallScore: '89.92%'
+  }
   ```
 
 ## Testing
