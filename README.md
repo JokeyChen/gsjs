@@ -1,4 +1,6 @@
+[![npm](https://img.shields.io/npm/v/gsjs.svg)]()
 [![npm](https://img.shields.io/npm/dm/gsjs.svg)]()
+[![npm](https://img.shields.io/npm/l/gsjs.svg)]()
 
 # gsjs (GradeSource web scraper)
 gsjs is a web scraper that scrapes all the course information as well as scores and rank for a specific user from GradeSource website.
