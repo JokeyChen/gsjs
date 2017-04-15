@@ -1,3 +1,5 @@
+[![NPM Version][npm-image]][npm-url]
+
 # gsjs (GradeSource web scraper)
 gsjs is a web scraper that scrapes all the course information as well as scores and rank for a specific user from GradeSource website.
 
